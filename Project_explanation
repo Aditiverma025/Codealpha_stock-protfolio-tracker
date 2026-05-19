@@ -1,0 +1,60 @@
+project name 
+Project Name
+Advanced Stock Portfolio Tracker
+
+Developed By
+Aditi verma
+
+Internship
+CodeAlpha Python Programming Internship
+
+Introduction
+Advanced Stock Portfolio Tracker is a Python console-based project that allows users to manage their stock investments. It is designed to be simple, practical, and beginner-friendly while still showing multiple important Python concepts.
+
+The project allows users to buy stocks, sell stocks, view their current portfolio, check transaction history, search stock prices, and generate a portfolio report.
+
+Main Purpose
+The main purpose of this project is to calculate and track the total value of a stock portfolio.
+
+Instead of only calculating total investment once, this advanced version stores data permanently using CSV files and allows users to manage their portfolio over multiple runs.
+
+How It Works
+The program starts with a menu.
+The user selects an option from 1 to 8.
+The user can view available stocks, buy stock, sell stock, view portfolio, check transaction history, search price, generate report, or exit.
+Portfolio data is stored in portfolio.csv.
+Buy and sell records are stored in transactions.csv.
+A detailed report can be generated in portfolio_report.txt.
+Important Python Concepts Used
+1. Dictionary
+The stock prices are stored in a dictionary.
+
+2. CSV File Handling
+CSV files are used to store portfolio and transaction data permanently.
+
+3. Functions
+The project is divided into separate functions to make the code clean and easy to understand.
+
+4. Loops
+A while loop is used to keep showing the menu until the user exits.
+
+5. Conditional Statements
+If-elif-else statements are used to process user choices.
+
+6. Input Validation
+The program checks invalid stock symbols, invalid quantities, and wrong menu options.
+
+7. DateTime
+The datetime module is used to record transaction date and report generation time.
+
+Main Features
+Buy stocks
+Sell stocks
+View available stocks
+View portfolio summary
+View transaction history
+Search stock price
+Generate report
+Save data permanently
+Conclusion
+This project is a useful Python application for understanding how a simple portfolio management system works. It demonstrates practical use of Python file handling, dictionaries, calculations, and modular programming.
